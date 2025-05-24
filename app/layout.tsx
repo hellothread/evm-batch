@@ -6,13 +6,13 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Web3批量操作工具 - Thread",
+  title: "EVM链批量操作工具",
   description: "一个EVM链批量交易和操作工具",
-    generator: 'Thread'
+  generator: "Thread",
 }
 
 export default function RootLayout({
-  children,ß
+  children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
